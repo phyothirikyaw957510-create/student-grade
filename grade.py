@@ -6,4 +6,8 @@ average = (mark1 + mark2) / 5
 
 print(f"Student Name: {name}")
 print(f"Average Mark: {average}")
+if average >= 50:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
 
